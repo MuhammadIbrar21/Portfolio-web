@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* custom font start */
+
+@font-face {
+  font-family: myBold;
+  src: url(../assets/fonts/cera-round-pro/Fontspring-DEMO-ceraroundpro-bold.otf);
+}
+@font-face {
+  font-family: myLight;
+  src: url(../assets/fonts/cera-round-pro/Fontspring-DEMO-ceraroundpro-light.otf);
+}
+
+/* custom font end */
+
+:root {
+  --body-bg-color: #151515;
+  --header-icon-color: #fdfdfd;
+}
+body {
+  background-color: var(--body-bg-color);
+}
+
+/* header start */
+
+nav {
+  width: 98.72vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: var(--header-icon-color);
+  text-transform: lowercase;
+  font-size: xx-large;
+  font-family: myBold;
+  transition: 500ms;
+}
+nav a:hover {
+  transform: scale(1.05);
+}
+nav ul {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li svg {
+  width: 30px;
+  fill: var(--header-icon-color);
+  cursor: pointer;
+  transition: 500ms;
+}
+li svg:hover {
+  fill: #1877f2;
+  transform: scale(1.1);
+}
+
+/* Header end */
+
+/* First Section start */
+
+.first {
+  width: 98.72vw;
+  height: 100vh;
+}
+.first-left h1 {
+  position: absolute;
+  color: var(--header-icon-color);
+  font-size: 4.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  left: 10%;
+  top: 30%;
+}
+.first-left p {
+  color: #fdfdfd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  margin-top: 21%;
+  left: 10%;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+.first-left button {
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  position: absolute;
+  left: 10%;
+  margin-top: 31%;
+  position: relative;
+  cursor: pointer;
+}
+.first-left button::after {
+  content: "";
+  position: absolute;
+  background-color: #50df9f;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  transform: scale(1, 1);
+  transition: 500ms;
+}
+.first-left button:hover::after {
+  transform: scale(0, 1);
+}
+.first-right .img {
+  width: 28vw;
+  height: 95vh;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  z-index: -1;
+  background-image: url(../assets/images/personal-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.first-right #circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  text-align: center;
+}
+.first-right #circle p {
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4.5em;
+  color: #fdfdfd;
+  letter-spacing: 20px;
+  padding-top: 15%;
+  padding-left: 8%;
+}
+
+/* First Section end */
+
+main hr {
+  width: 81%;
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin: auto;
+}
+
+/* Language  section start */
+
+.language {
+  width: 98.72vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.per-langs {
+  width: 81%;
+  height: 50%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.per-lang {
+  width: 30%;
+  height: 48%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fdfdfd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.lang-details {
+  width: 80%;
+  height: 90%;
+}
+.lang-heading {
+  font-weight: bold;
+  font-size: 3em;
+}
+.lang-experience {
+  margin-top: 5%;
+  color: #9a9a9a;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Language  section end */
+
+/* third section start */
+
+.project {
+  width: 98.72vw;
+  height: 300vh;
+}
+.project-content {
+  margin: auto;
+  width: 81%;
+  height: 100%;
+}
+.project-top {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-heading {
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.project-top button {
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  margin-top: 2%;
+  position: relative;
+  cursor: pointer;
+}
+.project-top button::after {
+  content: "";
+  position: absolute;
+  background-color: #50df9f;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  transform: scale(1, 1);
+  transition: 500ms;
+}
+.project-top button:hover::after {
+  transform: scale(0, 1);
+}
+.project-list {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.project-list a {
+  width: 48%;
+  height: 30%;
+  border-radius: 1%;
+  text-decoration: none;
+  color: #fdfdfd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.project-item {
+  width: 100%;
+  height: 100%;
+}
+.project-img {
+  width: 100%;
+  height: 80%;
+  background-image: url(../assets/images/project/repair.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border-radius: 1%;
+  transition: 500ms;
+}
+.project-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 3%;
+}
+.project-lang {
+  color: #9a9a9a;
+  margin-top: 3%;
+  word-spacing: 15px;
+}
+.project-list a:nth-child(2) .project-img {
+  background-image: url(../assets/images/project/spline.png);
+}
+.project-list a:nth-child(3) .project-img {
+  background-image: url(../assets/images/project/instagram.jpeg);
+}
+.project-list a:nth-child(4) .project-img {
+  background-image: url(../assets/images/project/gaming.png);
+}
+.project-list a:nth-child(5) .project-img {
+  background-image: url(../assets/images/project/result-summary.png);
+}
+.project-list a:nth-child(6) .project-img {
+  background-image: url(../assets/images/project/business.png);
+}
+.project-list a:hover {
+  color: #1877f2;
+}
+.project-list a:hover .project-img {
+  transform: scale(1.02);
+}
+
+/* third section end */
+
+/* footer start */
+
+footer {
+  width: 98.72vw;
+  height: 90vh;
+  background-color: #242424;
+  margin-top: 5%;
+  position: relative;
+}
+.footer-top {
+  width: 81%;
+  height: 75%;
+  margin: auto;
+  margin-top: 2%;
+  position: absolute;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-top-left {
+  width: 60%;
+  height: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fdfdfd;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: 4em;
+  margin-top: 5%;
+}
+.footer-top-left p {
+  margin-top: 5%;
+}
+.footer-top-right {
+  width: 40%;
+  height: 100%;
+  /* background-color: pink; */
+}
+form {
+  width: 100%;
+  height: 95%;
+  margin-top: 5%;
+  position: relative;
+}
+input {
+  width: 95%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fdfdfd;
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fdfdfd;
+  background-color: transparent;
+  margin-top: 3%;
+}
+textarea {
+  font-size: 16px;
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-top: 3%;
+  color: #fdfdfd;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fdfdfd;
+  outline: none;
+}
+form input[type="submit"] {
+  width: 140px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  margin-top: 7%;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+form span {
+  width: 130px;
+  height: 2px;
+  right: 0.5%;
+  bottom: 16%;
+  background-color: #50df9f;
+  transform: scale(1, 1);
+  position: absolute;
+  transition: 500ms;
+}
+input[type="submit"]:hover + span {
+  transform: scale(0, 1);
+}
+footer hr {
+  width: 80vw;
+  margin-left: 10%;
+  position: absolute;
+  bottom: 20%;
+}
+
+/* footer nav start */
+
+.footer-bottom {
+  width: 98.72vw;
+  position: absolute;
+  bottom: 0;
+}
+.footer-bottom nav {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-bottom nav a {
+  text-decoration: none;
+  color: var(--header-icon-color);
+  text-transform: lowercase;
+  font-size: xx-large;
+  margin-left: 2%;
+  font-family: myBold;
+  transition: 500ms;
+}
+.footer-bottom nav a:hover {
+  transform: scale(1.05);
+}
+.footer-bottom nav ul {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li svg {
+  width: 30px;
+  fill: var(--header-icon-color);
+  cursor: pointer;
+  transition: 500ms;
+}
+li svg:hover {
+  fill: #1877f2;
+  transform: scale(1.1);
+}
+
+/* footer nav end */
+
+/* footer end */
