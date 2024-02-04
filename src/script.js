@@ -26,11 +26,3 @@ function sendEmail() {
 }
 
 // send email function end
-
-// scroll function start
-
-function moveToContact() {
-    document.getElementsByClassName("footer-top").scrollIntoView();
-}
-
-// scroll function end
