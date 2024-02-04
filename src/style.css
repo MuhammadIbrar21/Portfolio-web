@@ -76,6 +76,7 @@ li svg:hover {
 .first-left h1 {
   position: absolute;
   color: var(--header-icon-color);
+  width: 60%;
   font-size: 4.5em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -122,7 +123,6 @@ li svg:hover {
 .first-right .img {
   width: 28vw;
   height: 95vh;
-  background-color: orange;
   position: absolute;
   top: 0;
   right: 10%;
@@ -477,3 +477,823 @@ li svg:hover {
 /* footer nav end */
 
 /* footer end */
+
+/* media query for tablet start */
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  html {
+    width: 97.5vw;
+  }
+  nav {
+    width: 97.5vw;
+    height: 10vh;
+  }
+  nav ul {
+    gap: 15%;
+  }
+  .first {
+    width: 97.5vw;
+    height: 70vh;
+  }
+  .first-left {
+    width: 97.5vw;
+  }
+  .first-left h1 {
+    font-size: 3.5em;
+    margin-top: -16%;
+    width: 57%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 45%;
+    font-size: 0.8em;
+    margin-top: 42%;
+    left: 8%;
+  }
+  .first-left button {
+    margin-top: 70%;
+    left: 8%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 45vw;
+    height: 70vh;
+    right: 0;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 40vh;
+  }
+  .per-lang {
+    width: 40%;
+    height: 60%;
+  }
+  .per-langs {
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 120vh;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .project-list {
+    height: 70%;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 97.5vw;
+    height: 70vh;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-top-left {
+    height: 30%;
+  }
+  .footer-top-right {
+    width: 60%;
+    height: 70%;
+  }
+  form span {
+    bottom: 23%;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for tablet end */
+
+/* media query for ipad mini start */
+
+@media screen and (min-width: 680px) and (max-width: 819px) {
+  html {
+    width: 97.5vw;
+  }
+  nav {
+    width: 97.5vw;
+    height: 10vh;
+  }
+  nav a {
+    font-size: 1.5em;
+  }
+  li svg {
+    width: 19px;
+  }
+  nav ul {
+    gap: 15%;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 97.5vw;
+    height: 70vh;
+  }
+  .first-left {
+    width: 97.5vw;
+  }
+  .first-left h1 {
+    font-size: 2.5em;
+    margin-top: -5%;
+    width: 57%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 50%;
+    font-size: 0.6em;
+    margin-top: 21%;
+    line-height: 20px;
+    left: 8%;
+  }
+  .first-left button {
+    margin-top: 33%;
+    font-size: 0.8em;
+    left: 8%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 40vw;
+    height: 70vh;
+    right: 0;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 50vh;
+    margin-bottom: 10%;
+  }
+  .per-lang {
+    width: 40%;
+    height: 60%;
+  }
+  .per-langs {
+    font-size: 0.6em;
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 120vh;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+  .project-top button {
+    font-size: 0.8em;
+  }
+  .project-list {
+    margin-top: 5%;
+    height: 150%;
+  }
+  .project-title {
+    font-size: 1.3em;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 55%;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+  }
+  .footer-heading {
+    font-size: 2.5em;
+  }
+  .footer-top-left p {
+    margin-top: 10px;
+    font-size: 0.7em;
+    height: 50%;
+    font-weight: lighter;
+  }
+  .footer-top-right {
+    width: 60%;
+    height: 70%;
+  }
+  form {
+    font-size: 0.5em;
+  }
+  form textarea {
+    font-size: 1.2em;
+  }
+  form input[type="submit"] {
+    right: -10%;
+    bottom: 0;
+  }
+  form span {
+    width: 17%;
+    bottom: 2%;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  .footer-bottom nav a {
+    font-size: 1.5em;
+  }
+  .footer-bottom li svg {
+    width: 19px;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for ipad mini end */
+
+/* media query for mobile view start */
+
+@media screen and (min-width: 500px) and (max-width: 679px) {
+  html {
+    width: 97.5vw;
+  }
+  nav {
+    width: 97.5vw;
+    height: 12vh;
+    margin-top: 3%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  nav ul {
+    gap: 25%;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 97.5vw;
+    height: 60vh;
+  }
+  .first-left {
+    width: 97.5vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 80%;
+  }
+  .first-left h1 {
+    font-size: 2em;
+    margin-top: 70%;
+    width: 80%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 70%;
+    font-size: 0.7em;
+    margin-top: 35%;
+    left: 15%;
+  }
+  .first-left button {
+    margin-top: 60%;
+    left: 2%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 60%;
+    height: 70%;
+    right: 20%;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .per-lang {
+    width: 100%;
+    height: 60%;
+  }
+  .per-langs {
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 400vh;
+    margin-top: 100%;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .project-list {
+    margin-top: 5%;
+    height: 70%;
+  }
+  .project-list a {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5%;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 90vh;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+    gap: 5%;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+  }
+  .footer-top-right {
+    width: 60%;
+    height: 70%;
+  }
+  form span {
+    bottom: -10%;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for mobile view end */
+
+/* media query for small mobile view start */
+
+@media screen and (min-width: 354px) and (max-width: 499px) {
+  html {
+    width: 97.5vw;
+  }
+  nav {
+    width: 97.5vw;
+    height: 12vh;
+    margin-top: 3%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 0.95em;
+  }
+  li svg {
+    width: 20px;
+  }
+  nav ul {
+    gap: 25%;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 97.5vw;
+    height: 60vh;
+  }
+  .first-left {
+    width: 97.5vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 80%;
+  }
+  .first-left h1 {
+    font-size: 1.5em;
+    margin-top: 60%;
+    width: 80%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 70%;
+    font-size: 0.5em;
+    margin-top: 25%;
+    left: 15%;
+  }
+  .first-left button {
+    font-size: 0.7em;
+    margin-top: 50%;
+    left: 2%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 60%;
+    height: 70%;
+    right: 20%;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .per-lang {
+    width: 100%;
+    height: 60%;
+  }
+  .per-langs {
+    width: 90%;
+    font-size: 0.6em;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 350vh;
+    margin-top: 100%;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .section-heading {
+    font-size: 2.5em;
+  }
+  .project-top button {
+    font-size: 0.8em;
+  }
+  .project-list {
+    margin-top: 5%;
+    height: 70%;
+  }
+  .project-title {
+    font-size: 1.5em;
+  }
+  .project-list a {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 5%;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 90vh;
+  }
+  .footer-heading {
+    font-size: 2.5em;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+    gap: 5%;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+    font-size: 0.8em;
+  }
+  .footer-top-left p {
+    font-size: 0.7em;
+  }
+  .footer-top-right {
+    width: 70%;
+    height: 70%;
+    font-size: 0.6em;
+  }
+  form textarea {
+    font-size: 0.95em;
+  }
+  form input[type="submit"] {
+    right: -20%;
+    margin-top: 2%;
+  }
+  form span {
+    height: 1px;
+    width: 35%;
+    bottom: -10%;
+    right: -5%;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  .footer-bottom nav a {
+    font-size: 0.95em;
+  }
+  .footer-bottom li svg {
+    width: 15px;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for small mobile view end */
+
+/* media query for very small mobile view start */
+
+@media screen and (max-width: 353px) {
+  html {
+    width: 97.5vw;
+  }
+  nav {
+    width: 97.5vw;
+    height: 12vh;
+    margin-top: 3%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 1.2em;
+  }
+  nav ul {
+    gap: 25%;
+  }
+  li svg {
+    width: 20px;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 97.5vw;
+    height: 60vh;
+  }
+  .first-left {
+    width: 97.5vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 80%;
+  }
+  .first-left h1 {
+    font-size: 1.5em;
+    margin-top: 65%;
+    width: 80%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 90%;
+    font-size: 0.5em;
+    margin-top: 35%;
+    left: 5%;
+  }
+  .first-left button {
+    margin-top: 65%;
+    font-size: 0.8em;
+    left: 2%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 60%;
+    height: 70%;
+    right: 20%;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .per-lang {
+    width: 100%;
+    height: 60%;
+  }
+  .per-langs {
+    font-size: 0.6em;
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 350vh;
+    margin-top: 100%;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+  .project-top button {
+    font-size: 0.8em;
+  }
+  .project-list {
+    height: 70%;
+  }
+  .project-title {
+    font-size: 1.5em;
+  }
+  .project-list a {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 5%;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 100vh;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+    gap: 5%;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+    font-size: 0.6em;
+  }
+  .footer-top-right {
+    width: 70%;
+    height: 70%;
+  }
+  form {
+    font-size: 0.7em;
+  }
+  textarea {
+    font-size: 1em;
+  }
+  form input[type="submit"] {
+    font-size: 1em;
+    right: -40px;
+  }
+  form span {
+    width: 42%;
+    bottom: -5%;
+    right: -10px;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  .footer-bottom nav a {
+    font-size: 0.9em;
+  }
+  .footer-bottom ul {
+    gap: 10%;
+  }
+  .footer-bottom li svg {
+    width: 20px;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for very small mobile view end */
