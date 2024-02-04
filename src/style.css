@@ -20,6 +20,9 @@
   --body-bg-color: #151515;
   --header-icon-color: #fdfdfd;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--body-bg-color);
 }

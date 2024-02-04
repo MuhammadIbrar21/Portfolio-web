@@ -1,3 +1,5 @@
+// send email function start
+
 function sendEmail() {
 
     const name = document.getElementById("name");
@@ -22,3 +24,13 @@ function sendEmail() {
         message => alert(message)
     );
 }
+
+// send email function end
+
+// scroll function start
+
+function moveToContact() {
+    document.getElementsByClassName("footer-top").scrollIntoView();
+}
+
+// scroll function end
