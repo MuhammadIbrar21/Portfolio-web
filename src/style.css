@@ -1297,3 +1297,548 @@ li svg:hover {
 }
 
 /* media query for very small mobile view end */
+
+/* media query for IPhone SE mobile view start */
+
+@media screen and (max-width: 430px) {
+  html {
+    width: 98.72vw;
+  }
+  nav {
+    width: 98.72vw;
+    height: 12vh;
+    margin-top: 3%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 1.2em;
+  }
+  nav ul {
+    gap: 25%;
+  }
+  li svg {
+    width: 20px;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 98.72vw;
+    height: 60vh;
+  }
+  .first-left {
+    width: 97.5vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 100%;
+  }
+  .first-left h1 {
+    font-size: 1.5em;
+    margin-top: 86%;
+    width: 80%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 90%;
+    font-size: 0.5em;
+    margin-top: 35%;
+    left: 5%;
+  }
+  .first-left button {
+    margin-top: 65%;
+    font-size: 0.8em;
+    left: 2%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 60%;
+    height: 70%;
+    right: 20%;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .per-lang {
+    width: 100%;
+    height: 60%;
+  }
+  .per-langs {
+    font-size: 0.6em;
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 350vh;
+    margin-top: 100%;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+  .project-top button {
+    font-size: 0.8em;
+  }
+  .project-list {
+    height: 70%;
+  }
+  .project-title {
+    font-size: 1.5em;
+  }
+  .project-list a {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 5%;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 100vh;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+    gap: 5%;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+    font-size: 0.6em;
+  }
+  .footer-top-right {
+    width: 70%;
+    height: 70%;
+  }
+  form {
+    font-size: 0.7em;
+  }
+  textarea {
+    font-size: 1em;
+  }
+  form input[type="submit"] {
+    font-size: 1em;
+    right: -56px;
+  }
+  form span {
+    width: 22%;
+    bottom: 44%;
+    right: -10px;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  .footer-bottom nav a {
+    font-size: 0.9em;
+  }
+  .footer-bottom ul {
+    gap: 10%;
+  }
+  .footer-bottom li svg {
+    width: 20px;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for IPhone SE mobile view end */
+
+/* media query for IPhone mobile view start */
+
+@media screen and (max-width: 300px) {
+  html {
+    width: 98.72vw;
+  }
+  nav {
+    width: 98.72vw;
+    height: 12vh;
+    margin-top: 3%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 1.2em;
+  }
+  nav ul {
+    gap: 25%;
+  }
+  li svg {
+    width: 20px;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 98.72vw;
+    height: 60vh;
+  }
+  .first-left {
+    width: 97.5vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 100%;
+  }
+  .first-left h1 {
+    font-size: 1.3em;
+    margin-top: 86%;
+    width: 60%;
+    left: 19%;
+  }
+  .first-left p {
+    width: 90%;
+    font-size: 0.5em;
+    margin-top: 55%;
+    left: 9%;
+  }
+  .first-left button {
+    margin-top: 90%;
+    font-size: 0.8em;
+    left: 2%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 60%;
+    height: 65%;
+    right: 20%;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .per-lang {
+    width: 100%;
+    height: 60%;
+  }
+  .per-langs {
+    font-size: 0.6em;
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 350vh;
+    margin-top: 100%;
+  }
+  .project-content {
+    width: 90%;
+    height: 120vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+  .project-top button {
+    font-size: 0.8em;
+  }
+  .project-list {
+    height: 70%;
+  }
+  .project-title {
+    font-size: 1.5em;
+  }
+  .project-list a {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 5%;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 100vh;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+    gap: 5%;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+    font-size: 0.6em;
+  }
+  .footer-top-right {
+    width: 70%;
+    height: 70%;
+  }
+  form {
+    font-size: 0.7em;
+  }
+  textarea {
+    font-size: 1em;
+  }
+  form input[type="submit"] {
+    font-size: 1em;
+    right: -56px;
+  }
+  form span {
+    width: 45%;
+    bottom: 29%;
+    right: -25px;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  .footer-bottom nav a {
+    font-size: 0.9em;
+  }
+  .footer-bottom ul {
+    gap: 10%;
+  }
+  .footer-bottom li svg {
+    width: 20px;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for IPhone mobile view end */
+
+/* media query for IPhone Mini view start */
+
+@media screen and (min-width: 680px) and (max-width: 819px) {
+  html {
+    width: 97.5vw;
+  }
+  nav {
+    width: 97.5vw;
+    height: 10vh;
+  }
+  nav a {
+    font-size: 1.5em;
+  }
+  li svg {
+    width: 19px;
+  }
+  nav ul {
+    gap: 15%;
+  }
+
+  /* first section start */
+
+  .first {
+    width: 97.5vw;
+    height: 70vh;
+  }
+  .first-left {
+    width: 97.5vw;
+  }
+  .first-left h1 {
+    font-size: 2.5em;
+    margin-top: -15%;
+    width: 57%;
+    left: 8%;
+  }
+  .first-left p {
+    width: 50%;
+    font-size: 0.8em;
+    margin-top: 28%;
+    line-height: 20px;
+    left: 8%;
+  }
+  .first-left button {
+    margin-top: 43%;
+    font-size: 0.8em;
+    left: 8%;
+  }
+  .first-right #circle {
+    display: none;
+  }
+  .first-right .img {
+    width: 40vw;
+    height: 70vh;
+    right: 0;
+    background-size: cover;
+  }
+  /* first section end */
+
+  main {
+    width: 97.5vw;
+  }
+  main hr {
+    width: 90%;
+  }
+
+  /* second section start */
+
+  .language {
+    width: 97.5vw;
+    height: 50vh;
+    margin-bottom: 10%;
+  }
+  .per-lang {
+    width: 40%;
+    height: 60%;
+  }
+  .per-langs {
+    font-size: 0.6em;
+    width: 90%;
+  }
+
+  /* second section end */
+
+  /* third section start */
+
+  .project {
+    width: 97.5vw;
+    height: 110vh;
+  }
+  .project-content {
+    width: 90%;
+    height: 90vh;
+  }
+  .project-top {
+    height: 8%;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+  .project-top button {
+    font-size: 0.8em;
+  }
+  .project-list {
+    margin-top: 5%;
+    height: 150%;
+  }
+  .project-title {
+    font-size: 1.3em;
+  }
+
+  /* third section end */
+
+  /* footer section start */
+
+  footer {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 55%;
+  }
+  .footer-top {
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-top-left {
+    width: 100%;
+    height: 35%;
+  }
+  .footer-heading {
+    font-size: 2.5em;
+  }
+  .footer-top-left p {
+    margin-top: 10px;
+    font-size: 0.7em;
+    height: 50%;
+    font-weight: lighter;
+  }
+  .footer-top-right {
+    width: 60%;
+    height: 70%;
+  }
+  form {
+    font-size: 0.5em;
+  }
+  form textarea {
+    font-size: 1.2em;
+  }
+  form input[type="submit"] {
+    right: -10%;
+    bottom: 0;
+  }
+  form span {
+    width: 17%;
+    bottom: 2%;
+  }
+  .footer-bottom {
+    bottom: 3%;
+  }
+  .footer-bottom nav {
+    height: 10vh;
+  }
+  .footer-bottom nav a {
+    font-size: 1.5em;
+  }
+  .footer-bottom li svg {
+    width: 19px;
+  }
+  footer hr {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  /* footer section end */
+}
+
+/* media query for IPhone Mini view end */
